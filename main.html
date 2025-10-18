@@ -2,85 +2,61 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Semantic Navbar & Audios</title>
+  <title>Dog Adoption</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 20px;
+      background-color: #fefefe;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    li {
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      padding: 10px;
       background-color: #f9f9f9;
     }
 
-    nav {
-      background-color: #333;
-      padding: 10px;
+    img {
+      width: 250px;
+      height: auto;
+      border-radius: 8px;
     }
 
-    nav ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      gap: 20px;
-      justify-content: center;
-    }
-
-    nav li {
-      display: inline;
-    }
-
-    nav a {
-      color: white;
+    a {
       text-decoration: none;
-      font-weight: bold;
-    }
-
-    h2 {
-      text-align: center;
-      margin-top: 40px;
-    }
-
-    .audio-section {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-      margin-top: 20px;
-    }
-
-    audio {
-      width: 300px;
     }
   </style>
 </head>
 <body>
 
-  <!-- Part 1: Semantic Navigation Bar -->
-  <nav>
-    <ul>
-      <li><a href="https://example.com/home">Home</a></li>
-      <li><a href="https://example.com/about">About</a></li>
-      <li><a href="https://example.com/contact">Contact</a></li>
-    </ul>
-  </nav>
+  <h1>Dog Breeds for Adoption</h1>
 
-  <!-- Part 2: Audio Section -->
-  <h2>3 random audios</h2>
-  <section class="audio-section">
-    <audio controls>
-      <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="audio/mp3">
-      Your browser does not support the audio element.
-    </audio>
-
-    <audio controls>
-      <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
-      Your browser does not support the audio element.
-    </audio>
-
-    <audio controls>
-      <source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" type="audio/mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </section>
+  <ul>
+    <li>
+      <a href="https://en.wikipedia.org/wiki/Basset_Hound" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/BassetHound_profil.jpg" alt="Basset Hound">
+      </a>
+    </li>
+    <li>
+      <a href="https://en.wikipedia.org/wiki/Border_Collie" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Full_attention_%288067543690%29.jpg/1280px-Full_attention_%288067543690%29.jpg" alt="Border Collie">
+      </a>
+    </li>
+  </ul>
 
 </body>
 </html>
